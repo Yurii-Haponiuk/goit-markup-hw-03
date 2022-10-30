@@ -153,6 +153,7 @@ ul {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--text-color-white);
+  border: none;
 }
 .button {
   font-family: inherit;
@@ -169,9 +170,12 @@ ul {
 }
 
 /* Section */
+.section {
+  padding: 94px 0;
+}
 /* Feateures */
 .feateure {
-  padding: 94px 0 0;
+  padding-bottom: 0;
 }
 .title-hide {
   pointer-events: none;
@@ -206,7 +210,6 @@ ul {
 }
 /* Work */
 .work {
-  padding: 94px 0;
 }
 .work-list {
   display: flex;
@@ -218,7 +221,6 @@ ul {
 /* Team */
 .team {
   background: var(--background-white);
-  padding: 94px 0;
 }
 .team-list {
   display: flex;
@@ -263,7 +265,7 @@ ul {
 .filtr-nav {
   display: flex;
   justify-content: center;
-  margin: 63px 0 50px;
+  margin-bottom: 50px;
   gap: 8px;
 }
 
@@ -295,8 +297,10 @@ ul {
   box-sizing: border-box;
   border: 1px solid #eeeeee;
 }
+.portfolio-name {
+  padding: 20px 24px;
+}
 .portfolio-list-title {
-  margin: 20px 24px 0;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -304,7 +308,7 @@ ul {
   color: var(--primary-text-color);
 }
 .portfolio-list-text {
-  margin: 4px 24px 20px;
+  margin-top: 4px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
