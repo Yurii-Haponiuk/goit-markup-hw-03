@@ -43,6 +43,10 @@ ul {
   margin: 0;
   list-style: none;
 }
+/* Section */
+.section {
+  padding: 94px 0;
+}
 /* header-nav */
 .header-nav {
   display: flex;
@@ -169,10 +173,6 @@ ul {
   color: var(--text-color-white);
 }
 
-/* Section */
-.section {
-  padding: 94px 0;
-}
 /* Feateures */
 .feateure {
   padding-bottom: 0;
@@ -286,6 +286,10 @@ ul {
   background: var(--accent-color);
   color: var(--text-color-white);
 }
+.portfolio-img {
+  display: block;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -300,6 +304,7 @@ ul {
 .portfolio-name {
   padding: 20px 24px;
 }
+
 .portfolio-list-title {
   font-size: 18px;
   line-height: 2;
@@ -316,13 +321,14 @@ ul {
 }
 
 /* Footer */
-footer {
+.footer {
   background: var(--background-hero);
+  padding: 60px 0;
 }
 /* Footer logo */
 .footer-logo {
   display: inline-block;
-  padding: 60px 0 20px;
+  margin-bottom: 20px;
 }
 .footer-logo-studio {
   color: var(--text-color-white);
@@ -340,9 +346,7 @@ footer {
 /* .footer-address:last-child {
   padding-bottom: 0px;
 } */
-.footer-address-list .item:last-child {
-  padding-bottom: 60px;
-}
+
 .footer-address:hover,
 .footer-address:focus {
   color: var(--text-color-white);
